@@ -15,7 +15,13 @@ def deps do
 end
 ```
 
-Documentation can be generated with
-[ExDoc](https://github.com/elixir-lang/ex_doc) and published on
-[HexDocs](https://hexdocs.pm). Once published, the docs can be found at
+## Example
+
+`iex> OuiQuery.get_db |> OuiQuery.get_vendor("MA:CA:DD:RR:ES:S!")`
+
+`nil`
+
+## Documentation
+
+Docs can be found at
 [https://hexdocs.pm/oui_query](https://hexdocs.pm/oui_query).
