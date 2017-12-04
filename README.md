@@ -18,7 +18,8 @@ end
 ## Example
 
 ```elixir
-OuiQuery.get_db |> OuiQuery.get_vendor("MA:CA:DD:RR:ES:S!")
+iex> OuiQuery.get_db |> OuiQuery.get_vendor("MA:CA:DD:RR:ES:S!")
+nil
 ```
 
 ## Documentation
