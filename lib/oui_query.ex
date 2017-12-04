@@ -34,8 +34,8 @@ defmodule OuiQuery do
 
   ## Examples
   
-    iex> OuiQuery.get_db_url()
-    "https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf"
+      iex> OuiQuery.get_db_url()
+      "https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf"
   """
   def get_db_url(), do: @db_url
 
