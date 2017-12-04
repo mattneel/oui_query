@@ -1,5 +1,4 @@
 defmodule OuiQuery do
-  NimbleCSV.define(OuiDBParser, separator: "\t", escape: "\"")
   @moduledoc """
   Documentation for OuiQuery.
   """
